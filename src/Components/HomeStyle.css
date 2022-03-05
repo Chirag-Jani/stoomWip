@@ -1,0 +1,79 @@
+.main_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin-bottom: 0.7rem;
+}
+
+.stoom_image {
+  height: fit-content;
+  width: 70rem;
+  margin: -2rem 0;
+}
+
+.content_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+}
+
+.content_div > p {
+  font-size: 1.5rem;
+  color: #ff9900;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.language_para {
+  margin: 1rem -0.2rem;
+}
+
+.para_line {
+  margin-top: -0.8rem;
+}
+
+.last_para {
+  margin-top: -2rem;
+}
+
+@media (max-width: 875px) {
+  .content_div > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .content_div {
+    margin: 2rem 2.5rem;
+  }
+
+  .content_div > p {
+    font-size: 1rem;
+  }
+
+  .stoom_image {
+    width: 20rem;
+    margin: 1rem 0rem;
+    margin-bottom: 0rem;
+  }
+  .main_logo {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* numbers */
+.clickable_numbers {
+  color: white;
+  text-decoration: none;
+}
+.clickable_numbers:hover {
+  color: yellow;
+}
